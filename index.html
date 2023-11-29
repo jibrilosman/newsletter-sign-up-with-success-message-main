@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/app.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+<div class="container">
+  <div class="signup">
+      <!-- Sign-up form start -->
+
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+
+      <form method="post">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="email@company.com" value="">
+        <small  class="error">valid email required</small>
+        <button id="submitEmail" type="button">Subscribe to monthly newsletter</button>
+      </form>
+      
+      
+    </div>
+    <div class="image">
+      <img class="img-desktop" src="./assets/images/illustration-sign-up-desktop.svg" alt="img-desktop"> 
+    </div>
+    
+  </div>
+  <!-- Sign-up form end -->
+
+<!-- Success message start -->
+<div class="thanks-container">
+  <div class="thanks">
+    <img src="assets/images/icon-success.svg" alt="success">
+    <h1>Thanks for subscribing!</h1>
+    
+    <p>A confirmation email has been sent to <strong></strong>. 
+      Please open it and click the button inside to confirm your subscription.</p>
+      
+      <button id="dismiss" type="button">Dismiss message</button>
+  </div>
+</div>
+  
+
+<!-- Success message end -->
+  
+ 
+  
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io/profile/jibrilosman" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/jibrilosman" target="_blank">Jibril Omar</a>.
+</div>
+
+  <script src="./scripts/app.js"></script>
+</body>
+</html>
